@@ -1,0 +1,6 @@
+framework module Pods_TRDLMgr {
+  umbrella header "Pods-TRDLMgr-umbrella.h"
+
+  export *
+  module * { export * }
+}

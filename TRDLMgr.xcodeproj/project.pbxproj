@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D0DF414282D22CA005BA310 /* TRDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0DF413282D22CA005BA310 /* TRDownloadManager.m */; };
+		5D0DF41A282D259A005BA310 /* TRDownloadDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0DF418282D259A005BA310 /* TRDownloadDialog.m */; };
+		5D0DF423282D2BB8005BA310 /* TRDemoWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0DF422282D2BB8005BA310 /* TRDemoWindow.m */; };
+		5D0DF425282D3031005BA310 /* TRDownloadDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D0DF424282D3031005BA310 /* TRDownloadDialog.xib */; };
+		5D275C5A282E038000B69604 /* TRJavaCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D275C59282E038000B69604 /* TRJavaCheck.m */; };
+		5D3CCC6A282D3ECC00733754 /* TRDemoWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D3CCC69282D3ECC00733754 /* TRDemoWindow.xib */; };
+		5D72BDE3282D1F5600E9D0A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D72BDE2282D1F5600E9D0A7 /* AppDelegate.m */; };
+		5D72BDE5282D1F5900E9D0A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D72BDE4282D1F5900E9D0A7 /* Assets.xcassets */; };
+		5D72BDE8282D1F5900E9D0A7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D72BDE6282D1F5900E9D0A7 /* MainMenu.xib */; };
+		5D72BDEB282D1F5900E9D0A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D72BDEA282D1F5900E9D0A7 /* main.m */; };
+		83E0F840D05AFCCB2368D72D /* Pods_TRDLMgr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD2FEC6E7F68EDF0DA47087A /* Pods_TRDLMgr.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20664D321CDC96F3937B7425 /* Pods-TRDLMgr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRDLMgr.release.xcconfig"; path = "Target Support Files/Pods-TRDLMgr/Pods-TRDLMgr.release.xcconfig"; sourceTree = "<group>"; };
+		5D0DF412282D22CA005BA310 /* TRDownloadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRDownloadManager.h; sourceTree = "<group>"; };
+		5D0DF413282D22CA005BA310 /* TRDownloadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRDownloadManager.m; sourceTree = "<group>"; };
+		5D0DF417282D259A005BA310 /* TRDownloadDialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRDownloadDialog.h; sourceTree = "<group>"; };
+		5D0DF418282D259A005BA310 /* TRDownloadDialog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRDownloadDialog.m; sourceTree = "<group>"; };
+		5D0DF421282D2BB8005BA310 /* TRDemoWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRDemoWindow.h; sourceTree = "<group>"; };
+		5D0DF422282D2BB8005BA310 /* TRDemoWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRDemoWindow.m; sourceTree = "<group>"; };
+		5D0DF424282D3031005BA310 /* TRDownloadDialog.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TRDownloadDialog.xib; sourceTree = "<group>"; };
+		5D275C58282E038000B69604 /* TRJavaCheck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRJavaCheck.h; sourceTree = "<group>"; };
+		5D275C59282E038000B69604 /* TRJavaCheck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRJavaCheck.m; sourceTree = "<group>"; };
+		5D275C5B282E3E8100B69604 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5D3CCC69282D3ECC00733754 /* TRDemoWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TRDemoWindow.xib; sourceTree = "<group>"; };
+		5D72BDDE282D1F5600E9D0A7 /* TRDLMgr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRDLMgr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D72BDE1282D1F5600E9D0A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5D72BDE2282D1F5600E9D0A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5D72BDE4282D1F5900E9D0A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D72BDE7282D1F5900E9D0A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5D72BDE9282D1F5900E9D0A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D72BDEA282D1F5900E9D0A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D72BDEC282D1F5900E9D0A7 /* TRDLMgr.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TRDLMgr.entitlements; sourceTree = "<group>"; };
+		9D85B09FCFFCF34F3AD43338 /* Pods-TRDLMgr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRDLMgr.debug.xcconfig"; path = "Target Support Files/Pods-TRDLMgr/Pods-TRDLMgr.debug.xcconfig"; sourceTree = "<group>"; };
+		AD2FEC6E7F68EDF0DA47087A /* Pods_TRDLMgr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRDLMgr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D72BDDB282D1F5600E9D0A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E0F840D05AFCCB2368D72D /* Pods_TRDLMgr.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5069A380FC81544BEF21192C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D85B09FCFFCF34F3AD43338 /* Pods-TRDLMgr.debug.xcconfig */,
+				20664D321CDC96F3937B7425 /* Pods-TRDLMgr.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5D0DF40E282D22A5005BA310 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				5D0DF412282D22CA005BA310 /* TRDownloadManager.h */,
+				5D0DF413282D22CA005BA310 /* TRDownloadManager.m */,
+				5D0DF417282D259A005BA310 /* TRDownloadDialog.h */,
+				5D0DF418282D259A005BA310 /* TRDownloadDialog.m */,
+				5D0DF421282D2BB8005BA310 /* TRDemoWindow.h */,
+				5D0DF422282D2BB8005BA310 /* TRDemoWindow.m */,
+				5D275C58282E038000B69604 /* TRJavaCheck.h */,
+				5D275C59282E038000B69604 /* TRJavaCheck.m */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		5D72BDD5282D1F5600E9D0A7 = {
+			isa = PBXGroup;
+			children = (
+				5D72BDE0282D1F5600E9D0A7 /* TRDLMgr */,
+				5D72BDDF282D1F5600E9D0A7 /* Products */,
+				5069A380FC81544BEF21192C /* Pods */,
+				DB965ADA816D02426D93A954 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5D72BDDF282D1F5600E9D0A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D72BDDE282D1F5600E9D0A7 /* TRDLMgr.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D72BDE0282D1F5600E9D0A7 /* TRDLMgr */ = {
+			isa = PBXGroup;
+			children = (
+				5D0DF40E282D22A5005BA310 /* core */,
+				5D72BDF3282D1FA200E9D0A7 /* xib */,
+				5D72BDF2282D1F8D00E9D0A7 /* app */,
+				5D72BDE4282D1F5900E9D0A7 /* Assets.xcassets */,
+				5D72BDE9282D1F5900E9D0A7 /* Info.plist */,
+				5D72BDEC282D1F5900E9D0A7 /* TRDLMgr.entitlements */,
+				5D275C5B282E3E8100B69604 /* README.md */,
+			);
+			path = TRDLMgr;
+			sourceTree = "<group>";
+		};
+		5D72BDF2282D1F8D00E9D0A7 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				5D72BDEA282D1F5900E9D0A7 /* main.m */,
+				5D72BDE1282D1F5600E9D0A7 /* AppDelegate.h */,
+				5D72BDE2282D1F5600E9D0A7 /* AppDelegate.m */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		5D72BDF3282D1FA200E9D0A7 /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				5D72BDE6282D1F5900E9D0A7 /* MainMenu.xib */,
+				5D0DF424282D3031005BA310 /* TRDownloadDialog.xib */,
+				5D3CCC69282D3ECC00733754 /* TRDemoWindow.xib */,
+			);
+			path = xib;
+			sourceTree = "<group>";
+		};
+		DB965ADA816D02426D93A954 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD2FEC6E7F68EDF0DA47087A /* Pods_TRDLMgr.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D72BDDD282D1F5600E9D0A7 /* TRDLMgr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D72BDEF282D1F5900E9D0A7 /* Build configuration list for PBXNativeTarget "TRDLMgr" */;
+			buildPhases = (
+				81BF379A0D038C868F5A041F /* [CP] Check Pods Manifest.lock */,
+				5D72BDDA282D1F5600E9D0A7 /* Sources */,
+				5D72BDDB282D1F5600E9D0A7 /* Frameworks */,
+				5D72BDDC282D1F5600E9D0A7 /* Resources */,
+				9E6AEF763A07EC365319D7EE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRDLMgr;
+			productName = TRDLMgr;
+			productReference = 5D72BDDE282D1F5600E9D0A7 /* TRDLMgr.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D72BDD6282D1F5600E9D0A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = TRIStudio;
+				TargetAttributes = {
+					5D72BDDD282D1F5600E9D0A7 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 5D72BDD9282D1F5600E9D0A7 /* Build configuration list for PBXProject "TRDLMgr" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D72BDD5282D1F5600E9D0A7;
+			productRefGroup = 5D72BDDF282D1F5600E9D0A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D72BDDD282D1F5600E9D0A7 /* TRDLMgr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D72BDDC282D1F5600E9D0A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D3CCC6A282D3ECC00733754 /* TRDemoWindow.xib in Resources */,
+				5D72BDE5282D1F5900E9D0A7 /* Assets.xcassets in Resources */,
+				5D0DF425282D3031005BA310 /* TRDownloadDialog.xib in Resources */,
+				5D72BDE8282D1F5900E9D0A7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		81BF379A0D038C868F5A041F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TRDLMgr-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E6AEF763A07EC365319D7EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TRDLMgr/Pods-TRDLMgr-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TRDLMgr/Pods-TRDLMgr-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TRDLMgr/Pods-TRDLMgr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D72BDDA282D1F5600E9D0A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D72BDEB282D1F5900E9D0A7 /* main.m in Sources */,
+				5D72BDE3282D1F5600E9D0A7 /* AppDelegate.m in Sources */,
+				5D0DF414282D22CA005BA310 /* TRDownloadManager.m in Sources */,
+				5D0DF41A282D259A005BA310 /* TRDownloadDialog.m in Sources */,
+				5D275C5A282E038000B69604 /* TRJavaCheck.m in Sources */,
+				5D0DF423282D2BB8005BA310 /* TRDemoWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5D72BDE6282D1F5900E9D0A7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D72BDE7282D1F5900E9D0A7 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D72BDED282D1F5900E9D0A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5D72BDEE282D1F5900E9D0A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5D72BDF0282D1F5900E9D0A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D85B09FCFFCF34F3AD43338 /* Pods-TRDLMgr.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TRDLMgr/TRDLMgr.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TRDLMgr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.tri.TRDLMgr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5D72BDF1282D1F5900E9D0A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20664D321CDC96F3937B7425 /* Pods-TRDLMgr.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TRDLMgr/TRDLMgr.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TRDLMgr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.tri.TRDLMgr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D72BDD9282D1F5600E9D0A7 /* Build configuration list for PBXProject "TRDLMgr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D72BDED282D1F5900E9D0A7 /* Debug */,
+				5D72BDEE282D1F5900E9D0A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D72BDEF282D1F5900E9D0A7 /* Build configuration list for PBXNativeTarget "TRDLMgr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D72BDF0282D1F5900E9D0A7 /* Debug */,
+				5D72BDF1282D1F5900E9D0A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D72BDD6282D1F5600E9D0A7 /* Project object */;
+}

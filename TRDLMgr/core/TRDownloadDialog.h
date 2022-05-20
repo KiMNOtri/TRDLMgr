@@ -7,7 +7,8 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#include "TRDownloadManager.h"
+#import "TRDownloadManager.h"
+#import "TRDownloadTable.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

@@ -33,17 +33,17 @@
     
     NSMutableDictionary* dic2 = [NSMutableDictionary new];
     [dic2 setObject:filereadyPath forKey:download_manifest_filepath];
-    [dic2 setObject:@"https://d1.music.126.net/dmusic/NeteaseMusic_2.3.8.872_web.dmg" forKey:download_manifest_urladdress];
+    [dic2 setObject:@"https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" forKey:download_manifest_urladdress];
     [arr addObject:dic2];
     
     NSMutableDictionary* dic3 = [NSMutableDictionary new];
     [dic3 setObject:filereadyPath forKey:download_manifest_filepath];
-    [dic3 setObject:@"https://dldir1.qq.com/qqfile/QQforMac/QQ_6.7.7.20976_960_EXP.dmg" forKey:download_manifest_urladdress];
+    [dic3 setObject:@"https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" forKey:download_manifest_urladdress];
     [arr addObject:dic3];
     
     NSMutableDictionary* dic4 = [NSMutableDictionary new];
     [dic4 setObject:filereadyPath forKey:download_manifest_filepath];
-    [dic4 setObject:@"https://pm.myapp.com/invc/xfspeed/qqpcmgr/module_update/Lemon-5.0.7.dmg" forKey:download_manifest_urladdress];
+    [dic4 setObject:@"https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" forKey:download_manifest_urladdress];
     [arr addObject:dic4];
     
     

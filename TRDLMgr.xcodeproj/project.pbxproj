@@ -17,6 +17,7 @@
 		5D72BDE5282D1F5900E9D0A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D72BDE4282D1F5900E9D0A7 /* Assets.xcassets */; };
 		5D72BDE8282D1F5900E9D0A7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D72BDE6282D1F5900E9D0A7 /* MainMenu.xib */; };
 		5D72BDEB282D1F5900E9D0A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D72BDEA282D1F5900E9D0A7 /* main.m */; };
+		5DA6486E28372AC6000E8906 /* TRDownloadTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA6486D28372AC6000E8906 /* TRDownloadTable.m */; };
 		83E0F840D05AFCCB2368D72D /* Pods_TRDLMgr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD2FEC6E7F68EDF0DA47087A /* Pods_TRDLMgr.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,8 @@
 		5D72BDE9282D1F5900E9D0A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D72BDEA282D1F5900E9D0A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5D72BDEC282D1F5900E9D0A7 /* TRDLMgr.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TRDLMgr.entitlements; sourceTree = "<group>"; };
+		5DA6486C28372AC6000E8906 /* TRDownloadTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRDownloadTable.h; sourceTree = "<group>"; };
+		5DA6486D28372AC6000E8906 /* TRDownloadTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRDownloadTable.m; sourceTree = "<group>"; };
 		9D85B09FCFFCF34F3AD43338 /* Pods-TRDLMgr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRDLMgr.debug.xcconfig"; path = "Target Support Files/Pods-TRDLMgr/Pods-TRDLMgr.debug.xcconfig"; sourceTree = "<group>"; };
 		AD2FEC6E7F68EDF0DA47087A /* Pods_TRDLMgr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRDLMgr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -77,6 +80,8 @@
 				5D0DF422282D2BB8005BA310 /* TRDemoWindow.m */,
 				5D275C58282E038000B69604 /* TRJavaCheck.h */,
 				5D275C59282E038000B69604 /* TRJavaCheck.m */,
+				5DA6486C28372AC6000E8906 /* TRDownloadTable.h */,
+				5DA6486D28372AC6000E8906 /* TRDownloadTable.m */,
 			);
 			path = core;
 			sourceTree = "<group>";
@@ -258,6 +263,7 @@
 			files = (
 				5D72BDEB282D1F5900E9D0A7 /* main.m in Sources */,
 				5D72BDE3282D1F5600E9D0A7 /* AppDelegate.m in Sources */,
+				5DA6486E28372AC6000E8906 /* TRDownloadTable.m in Sources */,
 				5D0DF414282D22CA005BA310 /* TRDownloadManager.m in Sources */,
 				5D0DF41A282D259A005BA310 /* TRDownloadDialog.m in Sources */,
 				5D275C5A282E038000B69604 /* TRJavaCheck.m in Sources */,
